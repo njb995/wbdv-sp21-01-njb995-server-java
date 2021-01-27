@@ -19,10 +19,10 @@
     </label>
     <div class="col-sm-10">
       <input type="text"
-             readonly
              class="form-control"
              id="username"
-             value="alice"/>
+             title="Please enter your username"
+             placeholder="Arthur"/>
     </div>
   </div>
   <div class="mb-3 row">
@@ -32,19 +32,9 @@
     <div class="col-sm-10">
       <input type="password"
              class="form-control"
-             id="inputPassword">
-    </div>
-  </div>
-
-  <div class="mb-3 row">
-    <label for="phone"
-           class="col-sm-2 col-form-label">
-      Phone
-    </label>
-    <div class="col-sm-10">
-      <input type="tel"
-             class="form-control"
-             id="phone"/>
+             id="inputPassword"
+             title="Please enter your password"
+             placeholder="*******">
     </div>
   </div>
 
@@ -57,8 +47,22 @@
       <input type="email"
              class="form-control"
              title="Please enter a valid email"
-             placeholder="alice@wonderland"
+             placeholder="arthur@longshanks.com"
              id="email"/>
+    </div>
+  </div>
+
+  <div class="mb-3 row">
+    <label for="phone"
+           class="col-sm-2 col-form-label">
+      Phone
+    </label>
+    <div class="col-sm-10">
+      <input type="tel"
+             class="form-control"
+             id="phone"
+             placeholder="(555) 555-5555"
+             title="Please enter your phone number">
     </div>
   </div>
 
@@ -68,7 +72,8 @@
       Role
     </label>
     <div class="col-sm-10">
-      <select id="role" class="form-control">
+      <select id="role"
+              class="form-control">
         <option>Faculty</option>
         <option>Student</option>
         <option>Staff</option>
@@ -96,8 +101,14 @@
 
     </label>
     <div class="col-sm-10">
+      <a class="btn btn-success btn-block"
+         title="Update Profile">
+        Update
+
+      </a>
       <a class="btn btn-danger btn-block"
-         href="../index.html">
+         href="../index.html"
+         title="Logout">
         Logout
       </a>
     </div>
