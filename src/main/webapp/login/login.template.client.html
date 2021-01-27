@@ -8,22 +8,44 @@
 <body>
 <div class="container">
   <h1>Sign In</h1>
-  <div>
-    Username <input class="form-control"/>
+
+  <div class="mb-3 row">
+    <label for="staticEmail"
+           class="col-sm-2 col-form-label">
+      Username
+    </label>
+    <div class="col-sm-10">
+      <input type="text"
+             class="form-control"
+             id="staticEmail"
+             value="email@example.com">
+    </div>
   </div>
-  <div>
-    Password <input class="form-control"/>
+  <div class="mb-3 row">
+    <label for="inputPassword"
+           class="col-sm-2 col-form-label">
+      Password
+    </label>
+    <div class="col-sm-10">
+      <input type="password"
+             class="form-control"
+             id="inputPassword">
+    </div>
   </div>
+
   <div>
     <br>
       <button class="btn btn-primary btn-block">Sign in</button>
+
   </div>
-  <a>Forgot Password</a>  <a>Sign Up</a>
+  <a>Forgot Password</a>
+  <a>Sign Up</a>
   <div>
     <a href="../index.html">
       Home
     </a>
   </div>
+
 </div>
 </body>
 </html>
