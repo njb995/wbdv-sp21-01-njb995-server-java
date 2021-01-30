@@ -8,12 +8,3 @@
 .wbdv-padding-5px {
     padding: 5px;
 }
-
-.wbdv-padding-1px {
-    padding: 2px
-}
-
-.wbdv-sticky-bottom {
-    position: fixed;
-    z-index: 1;
-}
